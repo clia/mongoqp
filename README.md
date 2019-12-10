@@ -31,7 +31,7 @@ func main() {
         fmt.Printf("%#v\n", exp.Properties[0].Value)
     }
 
-    exp2, err = parser.Parse(`{ ERR_S: { $gte: 1 } }`)
+    exp2, err := parser.Parse(`{ ERR_S: { $gte: 1 } }`)
     if err != nil {
         fmt.Printf("%s\n", err.Error())
     } else {
