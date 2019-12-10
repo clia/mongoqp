@@ -1,5 +1,5 @@
 # mongoqp
-A MongoDB Query Filter expression parser for Go.
+A MongoDB Query Filter Documents parser for Go.
 
 The expression, please see MongoDB's document: [https://docs.mongodb.com/manual/tutorial/query-documents](https://docs.mongodb.com/manual/tutorial/query-documents)
 
