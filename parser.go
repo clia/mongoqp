@@ -10,7 +10,7 @@ import (
 
 // Exp the expression top element
 type Exp struct {
-	Properties []*Property `"{" @@* "}"`
+	Properties []*Property `"{" @@ { "," @@ } "}"`
 }
 
 // Property a property element
